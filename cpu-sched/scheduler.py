@@ -53,7 +53,8 @@ else:
     for job in joblist:
         print('  Job', job[0], '( length = ' + str(job[1]) + ' )')
 print('\n')
-
+# (n-1) * number + 1
+# 
 if options.solve == True:
     print('** Solutions **\n')
     if options.policy == 'SJF':
